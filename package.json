@@ -2,9 +2,10 @@
   "name": "kitchen-sink",
   "private": true,
   "scripts": {
+    "start": "turbo run start",
     "build": "turbo run build",
     "clean": "turbo run clean",
-    "dev": "turbo run dev",
+    "dev": "turbo run dev --parallel",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "turbo run lint",
     "test": "turbo run test",
